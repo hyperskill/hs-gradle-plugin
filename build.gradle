@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        hyperskillVersionPlugin {
+            id = "hyperskill"
+            implementationClass = "org.hyperskill.plugin.HyperskillVersionPlugin"
+        }
+    }
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+    }
+}
+
+group 'org.hyperskill'
+version '1.0'
