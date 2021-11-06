@@ -10,9 +10,7 @@ To use the plugin, include in your build script:
 buildscript {
     repositories {
         mavenCentral()
-        maven {
-            url 'https://jitpack.io'
-        }
+        maven { url 'https://jitpack.io' }
     }
     
     dependencies {
