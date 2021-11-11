@@ -2,8 +2,8 @@ package org.hyperskill.plugin.versions;
 
 public class Spring {
 
-    public String bootVersion = "2.3.1.RELEASE";
-    public String dependencyManagementVersion = "1.0.9.RELEASE";
+    public String bootVersion = "2.5.6";
+    public String dependencyManagementVersion = "1.0.11.RELEASE";
 
     public Spring() {}
 

@@ -54,8 +54,8 @@ hs {
     }
 
     spring {
-        bootVersion = "2.3.1.RELEASE"
-        dependencyManagementVersion = "1.0.9.RELEASE"
+        bootVersion = "2.5.6"
+        dependencyManagementVersion = "1.0.11.RELEASE"
     }
 }
 ```
