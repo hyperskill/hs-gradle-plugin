@@ -9,7 +9,6 @@ To use the plugin, include in your build script:
 ```gradle
 buildscript {
     repositories {
-        mavenCentral()
         maven { url 'https://jitpack.io' }
     }
     
@@ -49,6 +48,7 @@ hs {
 
     kotlin {
         version = "1.5.20"
+        javaVersion = 11
     }
 
     spring {
