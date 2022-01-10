@@ -43,12 +43,12 @@ hs {
     }
 
     java {
-        version = 11
+        version = 17
     }
 
     kotlin {
         version = "1.5.20"
-        javaVersion = 11
+        javaVersion = 17
     }
 
     spring {
