@@ -39,7 +39,7 @@ hs {
     }
 
     gradle {
-        version = "7.1.1"
+        version = "7.3.3"
     }
 
     java {
