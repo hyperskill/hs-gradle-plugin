@@ -47,7 +47,7 @@ hs {
     }
 
     kotlin {
-        version = "1.5.20"
+        version = "1.6.10"
         javaVersion = 17
     }
 
