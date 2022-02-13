@@ -3,7 +3,6 @@ package org.hyperskill.plugin.versions;
 public class Android {
     
     private String androidGradleVersion = "7.0.2";
-    private String androidGradleFallbackVersion = "4.0.2";
     public String gradleVersion = "7.0.2";
     public String kotlinGradleVersion = "1.6.10";
     public String kotlinVersion = "1.6.10";
@@ -17,7 +16,13 @@ public class Android {
     public Android() {}
     
     public String getAndroidGradleVersion(String gradleVersion) {
-        return gradleVersion.compareTo("7.0.2") < 0 ? androidGradleFallbackVersion : androidGradleVersion;
+        final String androidGradleFallbackVersion = "4.0.2";
+        final String minimunGradleVersionNotRequiringFallback = "7.0.2";
+        
+        if (gradleVersion.compareTo(minimunGradleVersionNotRequiringFallback) < 0) {
+            return androidGradleFallbackVersion;
+        } else {
+            return androidGradleVersion;
+        }
     }
-
 }
