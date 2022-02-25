@@ -7,7 +7,7 @@ public class Android {
     public String kotlinGradleVersion = "1.6.10";
     public String kotlinVersion = "1.6.10";
     
-    public String robolectricVersion = "4.3.1";
+    public String robolectricVersion = "4.7.3";
     
     public Integer compileSdkVersion = 29;
     public Integer minSdkVersion = 20;
