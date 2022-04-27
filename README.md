@@ -30,18 +30,6 @@ The plugin contains the following versions structure:
 
 ```gradle
 hs {
-    android {
-        robolectricVersion = "4.3.1"
-        kotlinVersion = "1.4.20"
-        compileSdkVersion = 29
-        minSdkVersion = 20
-        targetSdkVersion = 29
-    }
-
-    gradle {
-        version = "7.3.3"
-    }
-
     java {
         version = 17
     }
@@ -50,10 +38,35 @@ hs {
         version = "1.6.10"
         javaVersion = 17
     }
-
+    
+    gradle {
+        version = "7.3.3"
+    }
+    
     spring {
         bootVersion = "2.5.6"
         dependencyManagementVersion = "1.0.11.RELEASE"
+    }
+
+    android {
+        androidGradleVersion = "7.0.2"
+        gradleVersion = "7.0.2"
+        kotlinGradleVersion = "1.6.10"
+        kotlinVersion = "1.6.10"
+    
+        robolectricVersion = "4.7.3"
+    
+        compileSdkVersion = 29
+        minSdkVersion = 20
+        targetSdkVersion = 29
+        
+        lib {
+            junit = "4.13.2"
+            appCompat = "1.3.1"
+            coreKtx = "1.6.0"
+            constraintLayout = "2.1.3"
+            material = "1.4.0"
+        }
     }
 }
 ```
