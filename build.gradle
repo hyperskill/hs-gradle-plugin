@@ -13,11 +13,25 @@ gradlePlugin {
     }
 }
 
-publishing {
-    repositories {
-        mavenLocal()
-    }
-}
-
 group 'org.hyperskill'
 version '1.1'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = "com.github.hyperskill"
+            artifactId = "hs-gradle-plugin"
+            version = "release-SNAPSHOT"
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "https://packages.jetbrains.team/maven/p/academy/hyperskill-hspc"
+            credentials {
+                username = spaceUsername
+                password = spacePassword
+            }
+        }
+    }
+}
