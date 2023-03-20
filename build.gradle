@@ -27,7 +27,7 @@ publishing {
     }
     repositories {
         maven {
-            url "https://packages.jetbrains.team/maven/p/academy/hyperskill-hspc"
+            url "https://packages.jetbrains.team/maven/p/hyperskill-hs-test/maven"
             credentials {
                 username = spaceUsername
                 password = spacePassword
