@@ -40,12 +40,12 @@ hs {
     }
     
     gradle {
-        version = "7.3.3"
+        version = "7.6"
     }
     
     spring {
-        bootVersion = "2.5.6"
-        dependencyManagementVersion = "1.0.11.RELEASE"
+        bootVersion = "3.0.2"
+        dependencyManagementVersion = "1.1.0"
     }
 
     android {
