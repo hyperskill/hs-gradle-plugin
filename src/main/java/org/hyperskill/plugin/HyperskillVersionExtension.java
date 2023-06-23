@@ -9,6 +9,7 @@ class HyperskillVersionExtension {
     public Java java = new Java();
     public Kotlin kotlin = new Kotlin();
     public Spring spring = new Spring();
+    public Ktor ktor = new Ktor();
 
     public HyperskillVersionExtension() {
 

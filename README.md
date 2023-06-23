@@ -48,6 +48,10 @@ hs {
         bootVersion = "3.0.2"
         dependencyManagementVersion = "1.1.0"
     }
+    
+    ktor {
+        version = "2.3.1"
+    }
 
     android {
         androidGradleVersion = "7.0.2"
