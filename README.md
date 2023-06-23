@@ -9,6 +9,7 @@ To use the plugin, include in your build script:
 ```gradle
 buildscript {
     repositories {
+        maven { url 'https://packages.jetbrains.team/maven/p/hyperskill-hs-test/maven' }
         maven { url 'https://jitpack.io' }
     }
     
