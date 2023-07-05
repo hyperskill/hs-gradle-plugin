@@ -3,7 +3,7 @@ package org.hyperskill.plugin.versions;
 public class Android {
 
     private String androidGradleVersion = "7.0.2";
-    public String gradleVersion = "7.0.2";
+    public String gradleVersion = "7.6.1";
     public String kotlinGradleVersion = "1.6.10";
     public String kotlinVersion = "1.6.10";
 
