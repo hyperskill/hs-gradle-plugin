@@ -54,8 +54,8 @@ hs {
     }
 
     android {
-        androidGradleVersion = "7.0.2"
-        gradleVersion = "7.0.2"
+        androidGradleVersion = "7.4.0"
+        gradleVersion = "7.5"
         kotlinGradleVersion = "1.6.10"
         kotlinVersion = "1.6.10"
     
