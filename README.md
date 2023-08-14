@@ -9,6 +9,7 @@ To use the plugin, include in your build script:
 ```gradle
 buildscript {
     repositories {
+        maven { url 'https://packages.jetbrains.team/maven/p/hyperskill-hs-test/maven' }
         maven { url 'https://jitpack.io' }
     }
     
@@ -35,7 +36,7 @@ hs {
     }
 
     kotlin {
-        version = "1.6.10"
+        version = "1.8.20"
         javaVersion = "17"
     }
     
@@ -47,10 +48,14 @@ hs {
         bootVersion = "3.0.2"
         dependencyManagementVersion = "1.1.0"
     }
+    
+    ktor {
+        version = "2.3.1"
+    }
 
     android {
-        androidGradleVersion = "7.0.2"
-        gradleVersion = "7.0.2"
+        androidGradleVersion = "7.4.0"
+        gradleVersion = "7.5"
         kotlinGradleVersion = "1.6.10"
         kotlinVersion = "1.6.10"
     
