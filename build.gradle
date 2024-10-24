@@ -14,7 +14,7 @@ gradlePlugin {
 }
 
 group 'org.hyperskill'
-version '1.3'
+version '1.4'
 
 publishing {
     publications {
@@ -27,7 +27,7 @@ publishing {
     }
     repositories {
         maven {
-            url "https://packages.jetbrains.team/maven/p/academy/hyperskill-hspc"
+            url "https://packages.jetbrains.team/maven/p/hyperskill-hs-test/maven"
             credentials {
                 username = spaceUsername
                 password = spacePassword

@@ -32,16 +32,16 @@ The plugin contains the following versions structure:
 ```gradle
 hs {
     java {
-        version = "17"
+        version = "21"
     }
 
     kotlin {
-        version = "1.8.20"
-        javaVersion = "17"
+        version = "2.0.0"
+        javaVersion = "21"
     }
     
     gradle {
-        version = "7.6"
+        version = "8.5"
     }
     
     spring {
@@ -89,5 +89,5 @@ hs.android.minSdkVersion
 To override version you can assign needed version to the variables before using them:
 
 ```
-hs.java.version = "18"
+hs.java.version = "21"
 ```
