@@ -7,3 +7,4 @@ gradlew.bat
 !src/**/build/
 
 .idea
+tmp/
