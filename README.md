@@ -45,8 +45,8 @@ hs {
     }
     
     spring {
-        bootVersion = "3.0.2"
-        dependencyManagementVersion = "1.1.0"
+        bootVersion = "3.2.0"
+        dependencyManagementVersion = "1.1.3"
     }
     
     ktor {
