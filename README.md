@@ -61,7 +61,7 @@ hs {
     
         robolectricVersion = "4.14"
     
-        compileSdkVersion = 34
+        compileSdkVersion = 35
         minSdkVersion = 21
         targetSdkVersion = 34
         

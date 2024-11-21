@@ -9,7 +9,7 @@ public class Android {
 
     public String robolectricVersion = "4.14";
 
-    public Integer compileSdkVersion = 34;
+    public Integer compileSdkVersion = 35;
     public Integer minSdkVersion = 21;
     public Integer targetSdkVersion = 34;
 
