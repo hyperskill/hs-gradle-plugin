@@ -54,23 +54,23 @@ hs {
     }
 
     android {
-        androidGradleVersion = "7.4.0"
-        gradleVersion = "7.5"
-        kotlinGradleVersion = "1.6.10"
-        kotlinVersion = "1.6.10"
+        androidGradleVersion = "8.7.2"
+        gradleVersion = "8.9"
+        kotlinGradleVersion = "1.9.22"
+        kotlinVersion = "1.8.20"
     
-        robolectricVersion = "4.7.3"
+        robolectricVersion = "4.14"
     
-        compileSdkVersion = 29
-        minSdkVersion = 20
-        targetSdkVersion = 29
+        compileSdkVersion = 34
+        minSdkVersion = 21
+        targetSdkVersion = 34
         
         lib {
             junit = "4.13.2"
-            appCompat = "1.3.1"
-            coreKtx = "1.6.0"
-            constraintLayout = "2.1.3"
-            material = "1.4.0"
+            appCompat = "1.7.0"
+            coreKtx = "1.15.0"
+            constraintLayout = "2.0.4"
+            material = "1.11.0"
         }
     }
 }
