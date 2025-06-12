@@ -14,7 +14,7 @@ gradlePlugin {
 }
 
 group 'org.hyperskill'
-version '1.8.3'
+version '1.8.5'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
