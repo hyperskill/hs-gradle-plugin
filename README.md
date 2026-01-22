@@ -36,12 +36,12 @@ hs {
     }
 
     kotlin {
-        version = "2.0.0"
-        javaVersion = "17"
+        version = "2.1.0"
+        javaVersion = "23"
     }
     
     gradle {
-        version = "8.5"
+        version = "8.14"
     }
     
     spring {
